@@ -1,9 +1,10 @@
 <?php
 
+use App\Http\Controllers\EmailPreviewController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('api/v1/email/preview');
+Route::get('api/v1/email/preview', EmailPreviewController::class);
