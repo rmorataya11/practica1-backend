@@ -53,5 +53,6 @@ class EmailPreviewController extends Controller
         }
         $data['total'] = number_format($total, 2); //  Formateamos los decimales
 
+        return view('EmailPreview', $data);
     }
 }
