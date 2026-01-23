@@ -11,7 +11,7 @@
 
 Endpoint para previsualizar el template de correo electrónico con los detalles de una compra.
 
-![Email Preview Success](image.png)
+![Email Preview Success](docs/image.png)
 
 ## About Laravel
 
